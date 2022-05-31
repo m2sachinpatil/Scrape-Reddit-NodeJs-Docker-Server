@@ -5,6 +5,7 @@ logs
 # Dumps
 tmp/*.json
 tmp/*.js
+package-lock.json
 
 # Runtime data
 pids

@@ -2,7 +2,6 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const config = require("../config.json");
 var fs = require('fs');
-const download = require('image-downloader');
 
 /// Scrape Reddit url
 async function scrapeReddit() {

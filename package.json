@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "REST API code using nodejs, express and sqlite3",
   "main": "app.js",
- 
+  "scripts": {
+    "test":"jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/m2sachinpatil/FinalApp"
@@ -19,6 +21,7 @@
     "sqlite3": "^4.2.0",
     "axios": "0.27.2",
     "cheerio": "1.0.0-rc.11",
-    "fx":"20.0.2"
+    "fx":"20.0.2",
+    "jest":"28.1.0"
   }
 }
