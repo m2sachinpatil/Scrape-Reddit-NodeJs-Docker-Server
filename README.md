@@ -27,6 +27,5 @@
 <pre style="padding-left: 80px;">npm install sqlite3</pre>
 <p>&nbsp;</p>
 <h2 id="fetching-websites">Docker File</h2>
-<p>Simply build the image using&nbsp;<span class="s1" style="background-color: #999999;">docker build -t test/nodeweb:v1 .</span></p>
-<p><code></code></p>
-<pre class="language-sh"><span style="color: #000000; background-color: #000000;"><code class="language-sh"><br /><br /></code></span></pre>
+<p>Simply build the image using&nbsp;</p>
+<pre style="padding-left: 80px;">docker build -t test/nodeweb:v1 .</pre>
