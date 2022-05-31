@@ -1,0 +1,24 @@
+{
+  "name": "scrape_image",
+  "version": "1.0.0",
+  "description": "REST API code using nodejs, express and sqlite3",
+  "main": "app.js",
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2sachinpatil/FinalApp"
+  },
+  "author": "Sachin Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m2sachinpatil/FinalApp"
+  },
+  "homepage": "https://github.com/m2sachinpatil/FinalApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0",
+    "axios": "0.27.2",
+    "cheerio": "1.0.0-rc.11",
+    "fx":"20.0.2"
+  }
+}

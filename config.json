@@ -1,0 +1,6 @@
+{
+    "port" : "8000",
+    "dbPath" : "./Database/ScraperDB.db",
+    "rediitURL" : "https://www.reddit.com/r/photo",
+    "imagePath": "./images/"
+}
