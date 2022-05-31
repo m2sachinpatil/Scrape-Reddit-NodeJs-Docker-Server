@@ -32,10 +32,13 @@ async function scrapeReddit() {
 async function downloadImage(url) {
 
     var filepath = config.imagePath;
-
+   
     if (!fs.existsSync(filepath)) {
         fs.mkdirSync(filepath);
     }
+
+    var filename = url.match(/(\w+\.jpe?g)/gi)
+    filepath = filepath+ filename
 
     const response = await axios({
         url,

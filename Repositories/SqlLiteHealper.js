@@ -75,8 +75,6 @@ async function insertPost(postModel) {
     try {
 
         return new Promise((resolve, reject) => {
-            let sql = `SELECT * FROM Post_Data`;
-
             db.run("INSERT INTO Post_Data (postTitle, photoPath, IsActive, CreatedOn) VALUES (?,?,?,?)",
             [postModel.title, postModel.url, 1, new Date().toString()], (err, row) => {
                 if (err) {
