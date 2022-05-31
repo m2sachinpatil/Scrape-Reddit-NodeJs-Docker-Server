@@ -1,4 +1,5 @@
-<p>Sometimes you'll find yourself wanting to use a set of data from a website, but the data won't be available as an API or in a downloadable format like CSV. In these cases, you may have to write a web scraper to download individual web pages and extract the data you want from within their HTML. This guide will teach you the basics of writing a web scraper using TypeScript and Node.js, and will note several of the obstacles you might encounter during web scraping.</p>
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+<p>Sometimes you'll find yourself wanting to use a set of data from a website, but the data won't be available as an API or in a downloadable format like CSV. In these cases, you may have to write a web scraper to download individual web pages and extract the data you want from within their HTML. This guide will teach you the basics of writing a web scraper using&nbsp; Node.js, and will note several of the obstacles you might encounter during web scraping.</p>
 <h2 id="fetching-websites">Fetching Websites using Axio</h2>
 <p>In our examples, we'll be using&nbsp;<a href="https://axios-http.com/docs/intro">Axios</a>&nbsp;to make our http requests. If you'd prefer something else, like&nbsp;<a href="https://www.npmjs.com/package/node-fetch">Node Fetch</a> to match the Fetch API until it's ready in Node.js, that's fine too. features are</p>
 <ul>
@@ -25,5 +26,7 @@
 </ul>
 <pre style="padding-left: 80px;">npm install sqlite3</pre>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<h2 id="fetching-websites">Docker File</h2>
+<p>Simply build the image using&nbsp;<span class="s1" style="background-color: #999999;">docker build -t test/nodeweb:v1 .</span></p>
+<p><code></code></p>
 <pre class="language-sh"><span style="color: #000000; background-color: #000000;"><code class="language-sh"><br /><br /></code></span></pre>
