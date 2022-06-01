@@ -29,3 +29,9 @@
 <h2 id="fetching-websites">Docker File</h2>
 <p>Simply build the image using&nbsp;</p>
 <pre style="padding-left: 80px;">docker build -t test/nodeweb:v1 .</pre>
+
+# Unit test Jest
+
+<pre style="padding-left: 80px;">npm install --save-dev jest </pre>
+
+<p style="color:red;">TODO: NEED MORE TEST COVERAGE, ADDED TEST FOR ONE FUNCTION ONLY WHICH IS IMPORTENT IN APPLICATION <p>
