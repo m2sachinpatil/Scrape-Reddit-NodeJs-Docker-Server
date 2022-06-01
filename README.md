@@ -26,6 +26,13 @@
 </ul>
 <pre style="padding-left: 80px;">npm install sqlite3</pre>
 <p>&nbsp;</p>
+
+<h2 id="fetching-websites">Download, Build and Run</h2>
+
+<pre style="padding-left: 80px;">npm install</pre>
+<pre style="padding-left: 80px;">node app.js</pre>
+
+<p>&nbsp;</p>
 <h2 id="fetching-websites">Docker File</h2>
 <p>Simply build the image using&nbsp;</p>
 <pre style="padding-left: 80px;">docker build -t test/nodeweb:v1 .</pre>
@@ -33,5 +40,7 @@
 # Unit test Jest
 
 <pre style="padding-left: 80px;">npm install --save-dev jest </pre>
+
+<pre style="padding-left: 80px;">npm run test </pre>
 
 <p style="color:red;">TODO: NEED MORE TEST COVERAGE, ADDED TEST FOR ONE FUNCTION ONLY WHICH IS IMPORTENT IN APPLICATION <p>
