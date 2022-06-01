@@ -13,14 +13,19 @@ async function scrapeReddit() {
 
         const title = $("._eYtD2XCVieq6emjKBH3m");
 
-        await downloadImage(urlMeme[0].attribs.src)
-
         const postModel = {
-            title: title[0].children[0].data,
-            url: urlMeme[0].attribs.src
+            title : "",
+            url :""
         };
-        return postModel;
-    }
+
+        if (urlMeme.length != 0) {
+            await downloadImage(urlMeme[0].attribs.src)
+
+                postModel.title = title[0].children[0].data,
+                postModel.url =  urlMeme[0].attribs.src
+            };
+            return postModel;
+        }
     catch (err) {
         console.error(err.message);
         throw err.message;
@@ -32,13 +37,13 @@ async function scrapeReddit() {
 async function downloadImage(url) {
 
     var filepath = config.imagePath;
-   
+
     if (!fs.existsSync(filepath)) {
         fs.mkdirSync(filepath);
     }
 
     var filename = url.match(/(\w+\.jpe?g)/gi)
-    filepath = filepath+ filename
+    filepath = filepath + filename
 
     const response = await axios({
         url,
