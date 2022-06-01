@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m2sachinpatil/FinalApp"
+    "url": "git+https://github.com/m2sachinpatil/Scrape-Reddit-NodeJs-Docker-Server"
   },
   "author": "Sachin Patil",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/m2sachinpatil/FinalApp"
+    "url": "https://github.com/m2sachinpatil/Scrape-Reddit-NodeJs-Docker-Server"
   },
-  "homepage": "https://github.com/m2sachinpatil/FinalApp#readme",
+  "homepage": "https://github.com/m2sachinpatil/Scrape-Reddit-NodeJs-Docker-Server#readme",
   "dependencies": {
     "axios": "0.27.2",
     "cheerio": "1.0.0-rc.11",

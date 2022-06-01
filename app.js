@@ -3,7 +3,7 @@ const express = require("express");
 var app = express();
 const axios = require("axios");
 const cheerio = require("cheerio");
-const config = require("../FinalApp/config.json");
+const config = require("./config.json");
 const postRoute = require('./Controller/postController');
 
 app.use('/api', postRoute);
